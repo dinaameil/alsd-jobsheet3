@@ -8,10 +8,17 @@ public class MataKuliah08 {
 
     public MataKuliah08 (String kode, String nama, int sks, int jumlahJam) {
         this.kode = kode;
-        this. nama = nama;
-        this.sks=sks;
+        this.nama = nama;
+        this.sks = sks;
         this.jumlahJam = jumlahJam;
     }
+
+    public MataKuliah08() {
+        this.kode = "";
+        this.nama = "";
+        this.sks = 0;
+        this.jumlahJam = 0;
+    }    
 
     public void tambahData() {
         Scanner sc = new Scanner(System.in);
