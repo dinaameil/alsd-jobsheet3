@@ -31,5 +31,11 @@ public class MataKuliahDemmo08 {
             System.out.println("Jumlah Jam   : "+ arrayOfMataKuliah08[i].jumlahJam);
             System.out.println("----------------------------------------");
         } 
+
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Masukkan Data Mata Kuliah ke-" + (i + 1));
+            arrayOfMataKuliah08[i] = new MataKuliah08();
+            arrayOfMataKuliah08[i].tambahData();
+        }
     }
 }
