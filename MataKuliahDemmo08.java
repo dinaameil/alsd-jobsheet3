@@ -37,5 +37,11 @@ public class MataKuliahDemmo08 {
             arrayOfMataKuliah08[i] = new MataKuliah08();
             arrayOfMataKuliah08[i].tambahData();
         }
+
+        for (int i = 0; i < 3; i++) {
+            System.out.println("Data Mata Kuliah ke-" + (i + 1));
+            arrayOfMataKuliah08[i].cetakInfo();
+        }
+        
     }
 }
